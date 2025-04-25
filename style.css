@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .barra-superior {
+    background-color: #f8f8f8;
+    padding: 10px;
+  }  
+
+  .logo {
+    background-color: #FF6F61;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  nav {
+    background-color: #dddddd;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .presentacion {
+    background-color: #cceff5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 50px;
+  }
+  
+  
+  .imagen-costado {
+    width: 30%;
+    height: 100px;
+    background-color: #80d3d3;
+    margin-right: 20px;
+  }
+  
+  .contenido {
+    width: 60%;
+  }
+  
+  .contenido h1 {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .contenido p {
+    margin: 5px 0;
+  }
+  
+  .boton {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+  }
+    
+  .tarjeta {
+    width: 25%;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .texto {
+    background-color: #f98c75;
+    color: white;
+  }
+  
+  .imagen-1 {
+    background-color: #90d3e0;
+  }
+  .imagen-2 {
+    background-color: #fcd264;
+  }
+  .imagen-3 {
+    background-color: #cccccc;
+  }
+  .subtexto {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  .buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+  .buscador input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .buscador button {
+    padding: 10px 15px;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
